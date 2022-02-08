@@ -9,6 +9,9 @@
 .body-conocelos{
     background-image:linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 27%, rgba(255,255,255,1) 32%, rgba(238,236,236,1) 40%, rgba(126,126,126,1) 100%); ;
 }
+.body-disc{
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 20%, rgba(56,56,56,1) 26%, rgba(110,110,110,1) 42%, rgba(212,210,210,1) 60%);
+}
 /* img de las tarjetas del index */
 .img-tarjetas{
     padding-top: 10px;
@@ -26,6 +29,26 @@
 .m-disc{
     padding-top: 400px;
 }
+/* cards de productos */
+.tamaño-card{
+    height: 300px;
+    width: 210px;
+    border: none;
+    margin-top: 100px;
+}
+.tamaño-img{
+    height: 300px;
+    width: 300px;
+    border: 1px solid #EBEBEB;
+}
+.main-productos{
+    padding-top: 500px;
+}
+.cambio-paginas{
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+
 /* logos de las pags metallica */
 .logo-inicio{
     text-align: center;
@@ -39,8 +62,9 @@ h1{
     margin: 0%;
     font-size: 80px;
     font-family: 'Cinzel', serif;
-    color: white;
+    color: black;
     text-align: center;
+    text-shadow: white;
 }
 /* nadvar y tarjetas */
 .dropdown-menu{
@@ -92,6 +116,10 @@ footer{
     background-image: url(https://www.metallica.com/dw/image/v2/BCPJ_PRD/on/demandware.static/-/Sites-Metallica-Library/default/dwd536fbc9/images/heroes/tour/tour-hero.jpg?sw=1920&sh=504&sm=cut&sfrm=jpg&q=95);
     background-repeat: no-repeat;
 }
+.foto-productos{
+    background-image: url(https://www.metallica.com/on/demandware.static/-/Sites/default/dwc45f1b18/images/slot/store-hero_20190114.jpg);
+    background-repeat: no-repeat;
+}
 /* colores */
 .color-footer{
     color: #09090b ;
@@ -127,6 +155,15 @@ footer{
 iframe{
     padding-left: 8%;
 }
+/* albumes */
+.foto-album:hover{
+    transform: scale(1.2);
+
+}
+/* entradas */
+.separacion-entradas{
+    padding-top: 500px;
+}
 
 .color-g{
     background-color:#232323 ;
@@ -147,11 +184,23 @@ iframe{
         background-image: url(https://i.pinimg.com/564x/fb/8e/52/fb8e52935db12bdee81d408206b95042.jpg);
         background-position:center top;
     }
+    .foto-productos{
+        background-position: center top;
+    }
     .conocelos-responsive{
         padding-top: 500px;
     }
     .m-disc{
         padding-top: 700px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .origen-banda{
+        padding: 0;
     }
     p{
         font-size: 10px;
@@ -187,8 +236,10 @@ iframe{
         background-position:center top;
     }
     .foto-somos{
-        background-image: url(https://i.pinimg.com/564x/fb/8e/52/fb8e52935db12bdee81d408206b95042.jpg);
         background-position:center top;
+    }
+    .foto-productos{
+        background-position: center top;
     }
     .conocelos-responsive{
         padding-top: 400px;
@@ -197,7 +248,13 @@ iframe{
         padding-top: 400px;
     }
     .m-disc{
-        padding-top: 700px;
+        padding-top: 400px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    .origen-banda{
+        padding: 0;
     }
     p{
         font-size: 20px;
